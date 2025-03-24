@@ -17,12 +17,6 @@
 
 ## Installation
 
-Install `logwise-rabii` from PyPI:
-
-```bash
-pip install logwise-rabii
-```
-
 To test a version from TestPyPI:
 
 ```bash
