@@ -1,0 +1,24 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logwise"  # Nom unique sur PyPI
+version = "0.1.0"  # Version initiale
+description = "Une bibliothèque pour gérer les logs avec analyse LLM"
+readme = "README.md"
+authors = [{name = "Votre Nom", email = "votre@email.com"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = [
+    "aiohttp>=3.8.0",
+    "flask>=2.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rabiizahnoune/logwise"
+"Source" = "https://github.com/rabiizahnoune/logwise"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio"]
