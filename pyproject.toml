@@ -4,11 +4,11 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "logwise"  # Nom unique sur PyPI
-version = "0.1.0"  # Version initiale
+name = "logwise-rabii"  # Nom unique sur PyPI
+version = "0.1.3"  # Version initiale
 description = "Une bibliothèque pour gérer les logs avec analyse LLM"
 readme = "README.md"
-authors = [{name = "Votre Nom", email = "votre@email.com"}]
+authors = [{name = "rabii zahnoune", email = "rabiizahnoune7@gmail.com"}]
 license = {file = "LICENSE"}
 requires-python = ">=3.8"
 dependencies = [
